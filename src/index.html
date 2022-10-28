@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page title</title>
+  <link rel="stylesheet" href="./sass/index.scss" />
+  <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+  <!-- ❗️❗️❗️ Add partials like so for every page -->
+  <include src="./partials/header.html"></include>
+  <main>
+    <include src="./partials/hero.html"></include>
+    <include src="./partials/promo.html"></include>
+    <include src="./partials/products.html"></include>
+    <include src="./partials/promo-article.html"></include>
+    <include src="./partials/smart-home.html"></include>
+    <include src="./partials/advantages.html"></include>
+    <include src="./partials/truemesh.html"></include>
+    <include src="./partials/about.html"></include>
+    <include src="./partials/selection.html"></include>
+    <include src="./partials/offer.html"></include>
+    <include src="./partials/help-center.html"></include>
+    <include src="./partials/stay-connected.html"></include>
+  </main>
+  <footer>
+    <include src="./partials/footer-left.html"></include>
+    <include src="./partials/footer-right.html"></include>
+  </footer>
+</body>
+
 </html>
