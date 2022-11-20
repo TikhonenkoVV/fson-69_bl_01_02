@@ -1,0 +1,131 @@
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+footer {
+    background-color: #161F49;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    width: 1440px;
+}
+
+
+.eero-footer-list {
+    list-style: none;
+}
+
+.eero-footer-list__items {
+    font-size: 18px;
+    line-height: 1.39;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+
+    &:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+
+}
+
+.footer-box-one {
+    display: flex;
+    gap: 92px;
+}
+
+.footer-title {
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.footer-field-label {
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 1px;
+}
+
+.footer-form__input {
+    padding: 13px 0px;
+    // height: 50px;
+    border: transparent;
+    border-bottom: 1px solid #FFFFFF;
+    // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+    background-color: #161F49;
+    outline: none;
+    font-size: 14px;
+    line-height: 17px;
+    // text-align: center;
+    text-transform: uppercase;
+
+    color: #989898;
+}
+
+.footer-field-title {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 69px;
+}
+
+// .footer-box-one{display: flex;}
+.logo {
+    margin-bottom: 60px;
+    display: block;
+}
+
+.footer-general-box {
+    display: flex;
+    margin-bottom: 52px;
+}
+
+.footer-box-two {
+    margin-left: 87px;
+}
+
+.footer-soc-set {
+    display: flex;
+    gap: 277px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 27px;
+}
+
+
+.footer-button {
+    font-size: 14px;
+    line-height: 1.22;
+
+    text-align: center;
+    background: #161F49;
+    border-radius: 0px;
+    height: 53px;
+    width: 191px;
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: auto;
+}
