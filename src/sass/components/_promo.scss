@@ -73,5 +73,11 @@
     line-height: calc(14 / 14);
     letter-spacing: 0.11px;
     color: $colorTextWhite;
+    transition: background-color $baseTransition;
+
+    &:hover,
+    &:focus {
+      background-color: $colorButtonHover;
+    }
   }
 }
