@@ -1,21 +1,9 @@
 
 
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    -webkit-clip-path: inset(50%);
-    clip-path: inset(50%);
-    margin: -1px;
-}
+
 
 footer {
-    background-color: #161F49;
+    background-color: $colorBackgroundDark;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -26,14 +14,12 @@ footer {
 
 }
 
-.eero-footer-list {
-    list-style: none;
-}
 
-.eero-footer-list__items {
+.footer__items {
+    
     font-size: 17px;
     line-height: 1.39;
-    color: #FFFFFF;
+    color: $colorTextWhite;
     font-family: 'Roboto';
 
     &:not(:last-child) {
@@ -43,7 +29,7 @@ footer {
 
 }
 
-.footer-box-one {
+.footer__box-one {
     display: flex;
     gap: 92px;
 }
@@ -52,36 +38,37 @@ footer {
     font-size: 14px;
     line-height: 1.6;
     letter-spacing: 0.1px;
-    color: #FFFFFF;
+    color: $colorTextWhite;
 }
 
-.footer-field-label {
+.footer__field-label {
     font-size: 36px;
     line-height: 48px;
-    color: #FFFFFF;
+    color: $colorTextWhite;
     margin-bottom: 1px;
 }
 
 .footer-form__input {
     padding: 13px 0px;
     width: 293px;
-    border: transparent;
-    border-bottom: 1px solid #FFFFFF;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid $colorTextWhite;
 
     margin-right: 28px;
-    background-color: #161F49;
-    outline: none;
+    background-color: $colorBackgroundDark;
     font-size: 14px;
     line-height: 17px;
+    text-transform: uppercase;
 
-
-    color: #989898;
+    color: $colorTextPlaceholder;
 }
 
-.footer-field-title {
+.footer__field-title {
     font-size: 18px;
     line-height: 25px;
-    color: #FFFFFF;
+    color: $colorTextWhite;
     margin-bottom: 69px;
 }
 
@@ -90,21 +77,21 @@ footer {
     display: block;
 }
 
-.footer-general-box {
+.footer__gen-box {
     display: flex;
     margin-bottom: 52px;
 }
 
-.footer-box-two {
+.footer__box-two {
     margin-left: 93px;
 }
 
-.footer-soc-set {
+.footer__soc-set {
     display: flex;
     gap: 277px;
 }
 
-.footer-social {
+.social-media {
     display: flex;
     gap: 27px;
 }
@@ -115,14 +102,14 @@ footer {
     line-height: 1.22;
 
     text-align: center;
-    background: #161F49;
+    background: $colorBackgroundDark;
     border-radius: 0px;
     height: 53px;
     width: 191px;
     text-transform: uppercase;
-    border: 1px solid #FFFFFF;
+    border: 1px solid $colorTextWhite;
 
-    color: #FFFFFF;
+    color: $colorTextWhite;
     text-align: center;
     padding-left: auto;
 }
