@@ -187,17 +187,23 @@ img {
 
 .container {
   padding: 0 15px;
+  width: 1440px;
   margin: 0 auto;
-}
-@media screen and (min-width: 1440px) {
-  .container {
-    width: 1440px;
-  }
 }
 
 .hero {
   position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 367px;
+  text-align: center;
+  background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
+  overflow: hidden;
 }
 
 .hero__sticker {
@@ -207,24 +213,7 @@ img {
   transform: translateX(-50%);
 }
 
-.hero__wrapper {
-  padding-bottom: 96px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.hero__box {
-  padding-top: 120px;
-  padding-bottom: 271px;
-  text-align: center;
-  background-image: url("../images/hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .hero__title {
-  margin: 0;
-  padding: 0;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 72px;
@@ -255,6 +244,10 @@ img {
   background: none;
   border: 1px solid #ffffff;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero__btn:hover {
+  background-color: #0051ff;
 }
 
 .promo {
@@ -324,4 +317,8 @@ img {
   line-height: 1;
   letter-spacing: 0.11px;
   color: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.promo__button:hover, .promo__button:focus {
+  background-color: #0051ff;
 }/*# sourceMappingURL=index.css.map */
