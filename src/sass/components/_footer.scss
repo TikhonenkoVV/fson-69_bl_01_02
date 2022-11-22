@@ -23,16 +23,15 @@ footer {
     padding-right: 190px;
     padding-top: 90px;
     padding-bottom: 100px;
-    width: 1440px;
-}
 
+}
 
 .eero-footer-list {
     list-style: none;
 }
 
 .eero-footer-list__items {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.39;
     color: #FFFFFF;
     font-family: 'Roboto';
@@ -65,17 +64,16 @@ footer {
 
 .footer-form__input {
     padding: 13px 0px;
-    // height: 50px;
+    width: 293px;
     border: transparent;
     border-bottom: 1px solid #FFFFFF;
-    // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 
+    margin-right: 28px;
     background-color: #161F49;
     outline: none;
     font-size: 14px;
     line-height: 17px;
-    // text-align: center;
-    text-transform: uppercase;
+
 
     color: #989898;
 }
@@ -87,7 +85,6 @@ footer {
     margin-bottom: 69px;
 }
 
-// .footer-box-one{display: flex;}
 .logo {
     margin-bottom: 60px;
     display: block;
@@ -99,7 +96,7 @@ footer {
 }
 
 .footer-box-two {
-    margin-left: 87px;
+    margin-left: 93px;
 }
 
 .footer-soc-set {
