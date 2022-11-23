@@ -1,0 +1,54 @@
+.about {
+    padding-top: 117px;
+    padding-bottom: 120px;
+}
+.about__title {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.20;
+    text-align: center;
+    color: $colorTextPrimary ;
+    margin-bottom: 84px;
+}
+.about__control-box {
+    padding-left: 235px;
+    padding-right: 235px;
+    height: 427px;
+}
+.about__list {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.about__item {
+    width: 199px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__icon {
+    width: 77px;
+    height: 77px;
+    fill: #2468FF;
+    margin-bottom: 33px;
+}
+.about__subtitle {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.15;
+    color: $colorTextPrimary;
+    margin-bottom: 17px;
+}
+.about__text {
+    font-size: 18px;
+    line-height: 1.40;
+    color: $colorTextPrimary;
+    margin-bottom: auto;
+}
+.about__link {
+    font-size: 14px;
+    line-height: 1.15;
+    color: $colorTextPrimary;
+    border-bottom: solid 1px $colorTextPrimary;
+    text-transform: uppercase;
+}
