@@ -251,10 +251,12 @@ footer {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  padding-left: 190px;
-  padding-right: 190px;
   padding-top: 90px;
   padding-bottom: 100px;
+  width: 1440px;
+  height: 639px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer__items {
@@ -309,11 +311,17 @@ footer {
 }
 
 .logo {
+  padding-left: 190px;
   margin-bottom: 60px;
   display: block;
 }
 
+.logo__icon {
+  fill: #ffffff;
+}
+
 .footer__gen-box {
+  padding-left: 190px;
   display: flex;
   margin-bottom: 52px;
 }
@@ -323,6 +331,7 @@ footer {
 }
 
 .footer__soc-set {
+  padding-left: 190px;
   display: flex;
   gap: 277px;
 }
@@ -330,6 +339,10 @@ footer {
 .social-media {
   display: flex;
   gap: 27px;
+}
+
+.social-media__icon {
+  fill: #ffffff;
 }
 
 .footer-button {
