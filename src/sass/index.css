@@ -185,6 +185,13 @@ img {
   height: auto;
 }
 
+.btn__home {
+  padding: 17px 64px;
+  background-color: #2468ff;
+  border: none;
+  color: #ffffff;
+}
+
 .container {
   padding: 0 15px;
   width: 1440px;
@@ -321,4 +328,41 @@ img {
 }
 .promo__button:hover, .promo__button:focus {
   background-color: #0051ff;
+}
+
+.smart__home {
+  max-width: 1440px;
+  padding: 150px 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("../images/door.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.smart__list {
+  display: flex;
+  justify-content: center;
+}
+
+.smart__icon {
+  width: 77px;
+  height: 77px;
+}
+
+.section__text {
+  width: 734px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smart__box {
+  display: flex;
+  justify-content: center;
+  list-style-type: square;
+  color: black;
+  gap: 10px;
 }/*# sourceMappingURL=index.css.map */
