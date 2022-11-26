@@ -311,7 +311,7 @@ footer {
 }
 
 .logo {
-  padding-left: 190px;
+  padding-left: 175px;
   margin-bottom: 60px;
   display: block;
 }
@@ -321,7 +321,7 @@ footer {
 }
 
 .footer__gen-box {
-  padding-left: 190px;
+  padding-left: 175px;
   display: flex;
   margin-bottom: 52px;
 }
@@ -331,7 +331,7 @@ footer {
 }
 
 .footer__soc-set {
-  padding-left: 190px;
+  padding-left: 175px;
   display: flex;
   gap: 277px;
 }
