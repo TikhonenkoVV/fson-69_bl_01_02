@@ -410,25 +410,7 @@ img {
 
 .configurator__img {
   width: 387px;
-  height: 192px;
   margin: 0 auto 58px;
-  background-image: url("../images/home-0.png");
-  background-position: 100%;
-  background-repeat: no-repeat;
-}
-@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-  .configurator__img {
-    background-image: url("../images/home-0@2x.png");
-  }
-}
-.configurator__img.smaller-bgr-img {
-  background-image: url("../images/home-1.png");
-}
-.configurator__img.medium-bgr-img {
-  background-image: url("../images/home-2.png");
-}
-.configurator__img.larger-bgr-img {
-  background-image: url("../images/home-3.png");
 }
 
 .configurator__label {
