@@ -10,26 +10,24 @@
     color: $colorTextPrimary ;
     margin-bottom: 84px;
 }
-.about__control-box {
-    padding-left: 235px;
-    padding-right: 235px;
-    height: 427px;
-}
 .about__list {
     display: flex;
-    justify-content: space-between;
-    height: 100%;
+    justify-content: center;
+    gap: 151px;
 }
 .about__item {
     width: 199px;
     display: flex;
     flex-direction: column;
+    min-height: 427px;
 }
-
+.about__list {
+    display: flex;
+    justify-content: center;
+    gap: 151px;
+}
 .about__icon {
-    width: 77px;
-    height: 77px;
-    fill: #2468FF;
+    fill: $colorAccent;
     margin-bottom: 33px;
 }
 .about__subtitle {
@@ -45,10 +43,18 @@
     color: $colorTextPrimary;
     margin-bottom: auto;
 }
-.about__link {
+.about__link {    
     font-size: 14px;
     line-height: 1.15;
     color: $colorTextPrimary;
-    border-bottom: solid 1px $colorTextPrimary;
+    border-bottom: solid 1px currentColor;
     text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-right: auto;    
+
+    &:hover,
+    &:focus {
+        color: $colorAccent;
+        border-bottom: solid 1px $colorAccent;
+    }
 }
