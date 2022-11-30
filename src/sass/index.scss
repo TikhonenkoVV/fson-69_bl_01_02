@@ -1,11 +1,13 @@
 @import './utils/variables';
 @import './base/normalise';
 @import './base/base';
+@import './base/buttons';
 @import './components/container';
 @import './components/hero';
 @import './components/promo';
+@import './components/smart-home';
 @import './components/about';
 @import './components/selection';
 @import './components/configurator';
-@import'./components/footer';
+@import './components/footer';
 @import './utils/vh';
