@@ -52,7 +52,8 @@
   border: 1px solid $colorTextWhite;
   cursor: pointer;
   transition: background-color $baseTransition;
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: $colorButtonHover;
   }
 }
