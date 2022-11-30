@@ -1,33 +1,60 @@
 (() => {
-  const labelHoverS = document.querySelector('.configurator__label--smaller');
-  const labelHoverM = document.querySelector('.configurator__label--medium');
-  const labelHoverL = document.querySelector('.configurator__label--larger');
-  // const chkBoxS = document.querySelector('.configurator__checkbox--smaller');
-  // const chkBoxM = document.querySelector('.configurator__checkbox--smaller');
-  // const chkBoxL = document.querySelector('.configurator__checkbox--smaller');
+  const group = document.querySelector('.configurator__group');
+  const chkboxS = document.querySelector('.configurator__checkbox--smaller');
+  const chkboxM = document.querySelector('.configurator__checkbox--medium');
+  const chkboxL = document.querySelector('.configurator__checkbox--larger');
   const imgBgr = document.querySelector('.configurator__img');
+  var pathA =
+    'https://raw.githubusercontent.com/TikhonenkoVV/prj-arch/main/img/';
+  var srcA = imgBgr.src;
+  var srcB = '';
+  var srcC = '';
+  var srcD = '';
 
-  labelHoverS.onmouseenter = function () {
-    imgBgr.classList.toggle('smaller-bgr-img');
-  };
+  chkboxS.addEventListener('change', event => {
+    imgBgr.src = srcB;
+    srcA = srcB;
+    console.log(srcA);
+  });
 
-  labelHoverS.onmouseleave = function () {
-    imgBgr.classList.toggle('smaller-bgr-img');
-  };
+  chkboxM.addEventListener('change', event => {
+    imgBgr.src = srcC;
+    srcA = srcC;
+    console.log(srcA);
+  });
 
-  labelHoverM.onmouseenter = function () {
-    imgBgr.classList.toggle('medium-bgr-img');
-  };
+  chkboxL.addEventListener('change', event => {
+    imgBgr.src = srcD;
+    srcA = srcD;
+    console.log(srcA);
+  });
 
-  labelHoverM.onmouseleave = function () {
-    imgBgr.classList.toggle('medium-bgr-img');
-  };
+  group.addEventListener('mouseover', event => {
+    var strA = '';
+    var strB = '';
+    if (event.target.classList.contains('configurator__label--smaller')) {
+      strA = 'home-1.png';
+      strB = pathA + strA;
+      imgBgr.src = strB;
+      srcB = strB;
+    } else {
+      if (event.target.classList.contains('configurator__label--medium')) {
+        strA = 'home-2.png';
+        strB = pathA + strA;
+        imgBgr.src = strB;
+        srcC = strB;
+      } else {
+        if (event.target.classList.contains('configurator__label--larger')) {
+          strA = 'home-3.png';
+          strB = pathA + strA;
+          imgBgr.src = strB;
+          srcD = strB;
+        }
+      }
+    }
+  });
 
-  labelHoverL.onmouseenter = function () {
-    imgBgr.classList.toggle('larger-bgr-img');
-  };
-
-  labelHoverL.onmouseleave = function () {
-    imgBgr.classList.toggle('larger-bgr-img');
-  };
+  group.addEventListener('mouseout', event => {
+    imgBgr.src = srcA;
+  });
 })();
